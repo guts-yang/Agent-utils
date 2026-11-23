@@ -238,611 +238,611 @@
     },
     {
       "name": "ablation-planner",
-      "directory": "knot-skills/ablation-planner",
+      "directory": "research-toolkit/ablation-planner",
       "source_directory": "ablation-planner",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "alphaxiv",
-      "directory": "knot-skills/alphaxiv",
+      "directory": "research-toolkit/alphaxiv",
       "source_directory": "alphaxiv",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "analyze-results",
-      "directory": "knot-skills/analyze-results",
+      "directory": "research-toolkit/analyze-results",
       "source_directory": "analyze-results",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "arxiv",
-      "directory": "knot-skills/arxiv",
+      "directory": "research-toolkit/arxiv",
       "source_directory": "arxiv",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-paper-improvement-loop",
-      "directory": "knot-skills/auto-paper-improvement-loop",
+      "directory": "research-toolkit/auto-paper-improvement-loop",
       "source_directory": "auto-paper-improvement-loop",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-review-loop",
-      "directory": "knot-skills/auto-review-loop",
+      "directory": "research-toolkit/auto-review-loop",
       "source_directory": "auto-review-loop",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-review-loop-llm",
-      "directory": "knot-skills/auto-review-loop-llm",
+      "directory": "research-toolkit/auto-review-loop-llm",
       "source_directory": "auto-review-loop-llm",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-review-loop-minimax",
-      "directory": "knot-skills/auto-review-loop-minimax",
+      "directory": "research-toolkit/auto-review-loop-minimax",
       "source_directory": "auto-review-loop-minimax",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "citation-audit",
-      "directory": "knot-skills/citation-audit",
+      "directory": "research-toolkit/citation-audit",
       "source_directory": "citation-audit",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "citation-crosscheck",
-      "directory": "knot-skills/citation-crosscheck",
+      "directory": "research-toolkit/citation-crosscheck",
       "source_directory": "citation-crosscheck",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "claims-drafting",
-      "directory": "knot-skills/claims-drafting",
+      "directory": "research-toolkit/claims-drafting",
       "source_directory": "claims-drafting",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "comm-lit-review",
-      "directory": "knot-skills/comm-lit-review",
+      "directory": "research-toolkit/comm-lit-review",
       "source_directory": "comm-lit-review",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "deepxiv",
-      "directory": "knot-skills/deepxiv",
+      "directory": "research-toolkit/deepxiv",
       "source_directory": "deepxiv",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "dse-loop",
-      "directory": "knot-skills/dse-loop",
+      "directory": "research-toolkit/dse-loop",
       "source_directory": "dse-loop",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "embodiment-description",
-      "directory": "knot-skills/embodiment-description",
+      "directory": "research-toolkit/embodiment-description",
       "source_directory": "embodiment-description",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "exa-search",
-      "directory": "knot-skills/exa-search",
+      "directory": "research-toolkit/exa-search",
       "source_directory": "exa-search",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-audit",
-      "directory": "knot-skills/experiment-audit",
+      "directory": "research-toolkit/experiment-audit",
       "source_directory": "experiment-audit",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-bridge",
-      "directory": "knot-skills/experiment-bridge",
+      "directory": "research-toolkit/experiment-bridge",
       "source_directory": "experiment-bridge",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-plan",
-      "directory": "knot-skills/experiment-plan",
+      "directory": "research-toolkit/experiment-plan",
       "source_directory": "experiment-plan",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-queue",
-      "directory": "knot-skills/experiment-queue",
+      "directory": "research-toolkit/experiment-queue",
       "source_directory": "experiment-queue",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "feishu-notify",
-      "directory": "knot-skills/feishu-notify",
+      "directory": "research-toolkit/feishu-notify",
       "source_directory": "feishu-notify",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "figure-description",
-      "directory": "knot-skills/figure-description",
+      "directory": "research-toolkit/figure-description",
       "source_directory": "figure-description",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "figure-spec",
-      "directory": "knot-skills/figure-spec",
+      "directory": "research-toolkit/figure-spec",
       "source_directory": "figure-spec",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "firecrawl-search",
-      "directory": "knot-skills/firecrawl-search",
+      "directory": "research-toolkit/firecrawl-search",
       "source_directory": "firecrawl-search",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "formula-derivation",
-      "directory": "knot-skills/formula-derivation",
+      "directory": "research-toolkit/formula-derivation",
       "source_directory": "formula-derivation",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "gemini-search",
-      "directory": "knot-skills/gemini-search",
+      "directory": "research-toolkit/gemini-search",
       "source_directory": "gemini-search",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "grant-proposal",
-      "directory": "knot-skills/grant-proposal",
+      "directory": "research-toolkit/grant-proposal",
       "source_directory": "grant-proposal",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "idea-creator",
-      "directory": "knot-skills/idea-creator",
+      "directory": "research-toolkit/idea-creator",
       "source_directory": "idea-creator",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "idea-discovery",
-      "directory": "knot-skills/idea-discovery",
+      "directory": "research-toolkit/idea-discovery",
       "source_directory": "idea-discovery",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "idea-discovery-robot",
-      "directory": "knot-skills/idea-discovery-robot",
+      "directory": "research-toolkit/idea-discovery-robot",
       "source_directory": "idea-discovery-robot",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "integrity-forensics",
-      "directory": "knot-skills/integrity-forensics",
+      "directory": "research-toolkit/integrity-forensics",
       "source_directory": "integrity-forensics",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "interview-cheatsheet",
-      "directory": "knot-skills/interview-cheatsheet",
+      "directory": "research-toolkit/interview-cheatsheet",
       "source_directory": "interview-cheatsheet",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "invention-structuring",
-      "directory": "knot-skills/invention-structuring",
+      "directory": "research-toolkit/invention-structuring",
       "source_directory": "invention-structuring",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "jurisdiction-format",
-      "directory": "knot-skills/jurisdiction-format",
+      "directory": "research-toolkit/jurisdiction-format",
       "source_directory": "jurisdiction-format",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "keenable-search",
-      "directory": "knot-skills/keenable-search",
+      "directory": "research-toolkit/keenable-search",
       "source_directory": "keenable-search",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "kill-argument",
-      "directory": "knot-skills/kill-argument",
+      "directory": "research-toolkit/kill-argument",
       "source_directory": "kill-argument",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "lean-formalize",
-      "directory": "knot-skills/lean-formalize",
+      "directory": "research-toolkit/lean-formalize",
       "source_directory": "lean-formalize",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "mermaid-diagram",
-      "directory": "knot-skills/mermaid-diagram",
+      "directory": "research-toolkit/mermaid-diagram",
       "source_directory": "mermaid-diagram",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "meta-apply",
-      "directory": "knot-skills/meta-apply",
+      "directory": "research-toolkit/meta-apply",
       "source_directory": "meta-apply",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "meta-optimize",
-      "directory": "knot-skills/meta-optimize",
+      "directory": "research-toolkit/meta-optimize",
       "source_directory": "meta-optimize",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "monitor-experiment",
-      "directory": "knot-skills/monitor-experiment",
+      "directory": "research-toolkit/monitor-experiment",
       "source_directory": "monitor-experiment",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "novelty-check",
-      "directory": "knot-skills/novelty-check",
+      "directory": "research-toolkit/novelty-check",
       "source_directory": "novelty-check",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "openalex",
-      "directory": "knot-skills/openalex",
+      "directory": "research-toolkit/openalex",
       "source_directory": "openalex",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "overleaf-sync",
-      "directory": "knot-skills/overleaf-sync",
+      "directory": "research-toolkit/overleaf-sync",
       "source_directory": "overleaf-sync",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-claim-audit",
-      "directory": "knot-skills/paper-claim-audit",
+      "directory": "research-toolkit/paper-claim-audit",
       "source_directory": "paper-claim-audit",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-compile",
-      "directory": "knot-skills/paper-compile",
+      "directory": "research-toolkit/paper-compile",
       "source_directory": "paper-compile",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-figure",
-      "directory": "knot-skills/paper-figure",
+      "directory": "research-toolkit/paper-figure",
       "source_directory": "paper-figure",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-illustration",
-      "directory": "knot-skills/paper-illustration",
+      "directory": "research-toolkit/paper-illustration",
       "source_directory": "paper-illustration",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-illustration-image2",
-      "directory": "knot-skills/paper-illustration-image2",
+      "directory": "research-toolkit/paper-illustration-image2",
       "source_directory": "paper-illustration-image2",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-plan",
-      "directory": "knot-skills/paper-plan",
+      "directory": "research-toolkit/paper-plan",
       "source_directory": "paper-plan",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-poster",
-      "directory": "knot-skills/paper-poster",
+      "directory": "research-toolkit/paper-poster",
       "source_directory": "paper-poster",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-poster-html",
-      "directory": "knot-skills/paper-poster-html",
+      "directory": "research-toolkit/paper-poster-html",
       "source_directory": "paper-poster-html",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-slides",
-      "directory": "knot-skills/paper-slides",
+      "directory": "research-toolkit/paper-slides",
       "source_directory": "paper-slides",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-talk",
-      "directory": "knot-skills/paper-talk",
+      "directory": "research-toolkit/paper-talk",
       "source_directory": "paper-talk",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-write",
-      "directory": "knot-skills/paper-write",
+      "directory": "research-toolkit/paper-write",
       "source_directory": "paper-write",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-writing",
-      "directory": "knot-skills/paper-writing",
+      "directory": "research-toolkit/paper-writing",
       "source_directory": "paper-writing",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "patent-novelty-check",
-      "directory": "knot-skills/patent-novelty-check",
+      "directory": "research-toolkit/patent-novelty-check",
       "source_directory": "patent-novelty-check",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "patent-pipeline",
-      "directory": "knot-skills/patent-pipeline",
+      "directory": "research-toolkit/patent-pipeline",
       "source_directory": "patent-pipeline",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "patent-review",
-      "directory": "knot-skills/patent-review",
+      "directory": "research-toolkit/patent-review",
       "source_directory": "patent-review",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "pixel-art",
-      "directory": "knot-skills/pixel-art",
+      "directory": "research-toolkit/pixel-art",
       "source_directory": "pixel-art",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "prior-art-search",
-      "directory": "knot-skills/prior-art-search",
+      "directory": "research-toolkit/prior-art-search",
       "source_directory": "prior-art-search",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "proof-checker",
-      "directory": "knot-skills/proof-checker",
+      "directory": "research-toolkit/proof-checker",
       "source_directory": "proof-checker",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "proof-orchestrator",
-      "directory": "knot-skills/proof-orchestrator",
+      "directory": "research-toolkit/proof-orchestrator",
       "source_directory": "proof-orchestrator",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "proof-writer",
-      "directory": "knot-skills/proof-writer",
+      "directory": "research-toolkit/proof-writer",
       "source_directory": "proof-writer",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "qzcli",
-      "directory": "knot-skills/qzcli",
+      "directory": "research-toolkit/qzcli",
       "source_directory": "qzcli",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "rebuttal",
-      "directory": "knot-skills/rebuttal",
+      "directory": "research-toolkit/rebuttal",
       "source_directory": "rebuttal",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "render-html",
-      "directory": "knot-skills/render-html",
+      "directory": "research-toolkit/render-html",
       "source_directory": "render-html",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-implement-feature",
-      "directory": "knot-skills/research-implement-feature",
+      "directory": "research-toolkit/research-implement-feature",
       "source_directory": "research-implement-feature",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-lit",
-      "directory": "knot-skills/research-lit",
+      "directory": "research-toolkit/research-lit",
       "source_directory": "research-lit",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-pipeline",
-      "directory": "knot-skills/research-pipeline",
+      "directory": "research-toolkit/research-pipeline",
       "source_directory": "research-pipeline",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-refine",
-      "directory": "knot-skills/research-refine",
+      "directory": "research-toolkit/research-refine",
       "source_directory": "research-refine",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-refine-pipeline",
-      "directory": "knot-skills/research-refine-pipeline",
+      "directory": "research-toolkit/research-refine-pipeline",
       "source_directory": "research-refine-pipeline",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-review",
-      "directory": "knot-skills/research-review",
+      "directory": "research-toolkit/research-review",
       "source_directory": "research-review",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-wiki",
-      "directory": "knot-skills/research-wiki",
+      "directory": "research-toolkit/research-wiki",
       "source_directory": "research-wiki",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "resubmit-pipeline",
-      "directory": "knot-skills/resubmit-pipeline",
+      "directory": "research-toolkit/resubmit-pipeline",
       "source_directory": "resubmit-pipeline",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "result-to-claim",
-      "directory": "knot-skills/result-to-claim",
+      "directory": "research-toolkit/result-to-claim",
       "source_directory": "result-to-claim",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "run-experiment",
-      "directory": "knot-skills/run-experiment",
+      "directory": "research-toolkit/run-experiment",
       "source_directory": "run-experiment",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "semantic-scholar",
-      "directory": "knot-skills/semantic-scholar",
+      "directory": "research-toolkit/semantic-scholar",
       "source_directory": "semantic-scholar",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "serverless-modal",
-      "directory": "knot-skills/serverless-modal",
+      "directory": "research-toolkit/serverless-modal",
       "source_directory": "serverless-modal",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "slides-polish",
-      "directory": "knot-skills/slides-polish",
+      "directory": "research-toolkit/slides-polish",
       "source_directory": "slides-polish",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "specification-writing",
-      "directory": "knot-skills/specification-writing",
+      "directory": "research-toolkit/specification-writing",
       "source_directory": "specification-writing",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "system-profile",
-      "directory": "knot-skills/system-profile",
+      "directory": "research-toolkit/system-profile",
       "source_directory": "system-profile",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "training-check",
-      "directory": "knot-skills/training-check",
+      "directory": "research-toolkit/training-check",
       "source_directory": "training-check",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "vast-gpu",
-      "directory": "knot-skills/vast-gpu",
+      "directory": "research-toolkit/vast-gpu",
       "source_directory": "vast-gpu",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "web-debug-search",
-      "directory": "knot-skills/web-debug-search",
+      "directory": "research-toolkit/web-debug-search",
       "source_directory": "web-debug-search",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "wiki-enrich",
-      "directory": "knot-skills/wiki-enrich",
+      "directory": "research-toolkit/wiki-enrich",
       "source_directory": "wiki-enrich",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "writing-systems-papers",
-      "directory": "knot-skills/writing-systems-papers",
+      "directory": "research-toolkit/writing-systems-papers",
       "source_directory": "writing-systems-papers",
-      "category": "knot-skills",
+      "category": "research-toolkit",
       "source": "knot-agent-design/knot-skills"
     }
   ],
