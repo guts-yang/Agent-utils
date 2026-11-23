@@ -7,7 +7,8 @@
 - **32 个用户级个人 skills**：复制自 `~/.workbuddy/skills/`，截至 **2026-10-29**。
 - **1 个仓库原有 skill**：`github-python-repo`，保留其脚本与文档。
 - **87 个 Knot Agent 科研 skills**：复制自 `knot-agent-design/knot-skills/`，截至 **2026-11-23**，统一放在 `skills/Auto-Research-In-Sleep/` 下。
-- 仓库共 **120 个技能包**。各包原始内容独立存放，不把所有技能内容拼成一个大文件。
+- **1 个外部封装 skill**：`anti-autoresearch`，来自 `guts-yang/Anti-Autoresearch`，作为科研工作流打包在 `skills/research/workflows/anti-autoresearch/`，截至 **2026-11-23**。
+- 仓库共 **121 个技能包**。各包原始内容独立存放，不把所有技能内容拼成一个大文件。
 - 内置、marketplace、插件及 Connector 随附技能不在此仓库内重复 vendoring；这些技能由各自上游管理。
 
 `skills-manifest.json` 是机器可读目录，记录技能名称、分类、包目录和来源。用户级个人技能的原始目录名也记录在 `source_directory` 中；如 `self-improving-agent__skillhub` 这种来源名与技能元数据 `name` 不同的情形，保留两者映射。
@@ -20,7 +21,7 @@
 | `research/ideas-and-methods` | 3 | idea 评估、挑战定义、创新验证 |
 | `research/benchmarks-and-reproduction` | 5 | benchmark 清单、SOTA 表、baseline 比较与复现 |
 | `research/writing-and-publication` | 8 | 论文写作、模板、数学笔记、投稿前审查与 venue 核验 |
-| `research/workflows` | 3 | 多轮研究编排、vibe research、周度复盘 |
+| `research/workflows` | 4 | 多轮研究编排、vibe research、周度复盘、Anti-Autoresearch 诚信取证 |
 | `career-and-jobs` | 1 | 求职准备与 AI 辅助练习 |
 | `ai-information` | 1 | AI HOT 动态检索与简报 |
 | `documents-and-conversion` | 1 | Markdown / CSV 离线转 PDF |
@@ -48,6 +49,7 @@
 
 - [`AUTO_RESEARCH_IN_SLEEP_USAGE.md`](AUTO_RESEARCH_IN_SLEEP_USAGE.md)：87 个技能的分类清单、调用命令、用途与附带资源。
 - [`AGENT_SYSTEM_PROMPT.md`](AGENT_SYSTEM_PROMPT.md)：可直接使用的一体化科研智能体系统提示词，含角色定义、技能加载机制、完整技能索引与典型工作流编排。
+- [`skills/research/workflows/anti-autoresearch/SKILL.md`](skills/research/workflows/anti-autoresearch/SKILL.md)：Anti-Autoresearch 取证工作流入口，含与 `autoresearch-loop` 的组合说明。
 
 ## 后续维护
 

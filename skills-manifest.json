@@ -1,8 +1,8 @@
 {
   "snapshot_date": "2026-11-23",
   "personal_skill_count": 32,
-  "repository_skill_count": 120,
-  "source_scope": "User-level personal skills copied from ~/.workbuddy/skills, with one owner-designated skill omitted, plus the existing skill from this repository root.",
+  "repository_skill_count": 121,
+  "source_scope": "User-level personal skills copied from ~/.workbuddy/skills, with one owner-designated skill omitted, plus the existing skill from this repository root, plus one externally packaged forensic workflow from guts-yang/Anti-Autoresearch.",
   "exclusions": "Built-in, marketplace, plugin, and connector skills are not vendored; those are maintained by their upstream distributions.",
   "skills": [
     {
@@ -844,6 +844,13 @@
       "source_directory": "writing-systems-papers",
       "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "anti-autoresearch",
+      "directory": "anti-autoresearch",
+      "source_directory": "anti-autoresearch",
+      "category": "research/workflows",
+      "source": "guts-yang/Anti-Autoresearch (packaged wrapper)"
     }
   ],
   "knot_agent_skill_count": 87
