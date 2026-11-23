@@ -1,7 +1,7 @@
 {
-  "snapshot_date": "2026-10-29",
+  "snapshot_date": "2026-11-23",
   "personal_skill_count": 32,
-  "repository_skill_count": 33,
+  "repository_skill_count": 120,
   "source_scope": "User-level personal skills copied from ~/.workbuddy/skills, with one owner-designated skill omitted, plus the existing skill from this repository root.",
   "exclusions": "Built-in, marketplace, plugin, and connector skills are not vendored; those are maintained by their upstream distributions.",
   "skills": [
@@ -235,6 +235,616 @@
       "source_directory": "figure-designer",
       "category": "visualization",
       "source": "user-level ~/.workbuddy/skills"
+    },
+    {
+      "name": "ablation-planner",
+      "directory": "knot-skills/ablation-planner",
+      "source_directory": "ablation-planner",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "alphaxiv",
+      "directory": "knot-skills/alphaxiv",
+      "source_directory": "alphaxiv",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "analyze-results",
+      "directory": "knot-skills/analyze-results",
+      "source_directory": "analyze-results",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "arxiv",
+      "directory": "knot-skills/arxiv",
+      "source_directory": "arxiv",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "auto-paper-improvement-loop",
+      "directory": "knot-skills/auto-paper-improvement-loop",
+      "source_directory": "auto-paper-improvement-loop",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "auto-review-loop",
+      "directory": "knot-skills/auto-review-loop",
+      "source_directory": "auto-review-loop",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "auto-review-loop-llm",
+      "directory": "knot-skills/auto-review-loop-llm",
+      "source_directory": "auto-review-loop-llm",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "auto-review-loop-minimax",
+      "directory": "knot-skills/auto-review-loop-minimax",
+      "source_directory": "auto-review-loop-minimax",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "citation-audit",
+      "directory": "knot-skills/citation-audit",
+      "source_directory": "citation-audit",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "citation-crosscheck",
+      "directory": "knot-skills/citation-crosscheck",
+      "source_directory": "citation-crosscheck",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "claims-drafting",
+      "directory": "knot-skills/claims-drafting",
+      "source_directory": "claims-drafting",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "comm-lit-review",
+      "directory": "knot-skills/comm-lit-review",
+      "source_directory": "comm-lit-review",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "deepxiv",
+      "directory": "knot-skills/deepxiv",
+      "source_directory": "deepxiv",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "dse-loop",
+      "directory": "knot-skills/dse-loop",
+      "source_directory": "dse-loop",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "embodiment-description",
+      "directory": "knot-skills/embodiment-description",
+      "source_directory": "embodiment-description",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "exa-search",
+      "directory": "knot-skills/exa-search",
+      "source_directory": "exa-search",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "experiment-audit",
+      "directory": "knot-skills/experiment-audit",
+      "source_directory": "experiment-audit",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "experiment-bridge",
+      "directory": "knot-skills/experiment-bridge",
+      "source_directory": "experiment-bridge",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "experiment-plan",
+      "directory": "knot-skills/experiment-plan",
+      "source_directory": "experiment-plan",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "experiment-queue",
+      "directory": "knot-skills/experiment-queue",
+      "source_directory": "experiment-queue",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "feishu-notify",
+      "directory": "knot-skills/feishu-notify",
+      "source_directory": "feishu-notify",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "figure-description",
+      "directory": "knot-skills/figure-description",
+      "source_directory": "figure-description",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "figure-spec",
+      "directory": "knot-skills/figure-spec",
+      "source_directory": "figure-spec",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "firecrawl-search",
+      "directory": "knot-skills/firecrawl-search",
+      "source_directory": "firecrawl-search",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "formula-derivation",
+      "directory": "knot-skills/formula-derivation",
+      "source_directory": "formula-derivation",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "gemini-search",
+      "directory": "knot-skills/gemini-search",
+      "source_directory": "gemini-search",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "grant-proposal",
+      "directory": "knot-skills/grant-proposal",
+      "source_directory": "grant-proposal",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "idea-creator",
+      "directory": "knot-skills/idea-creator",
+      "source_directory": "idea-creator",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "idea-discovery",
+      "directory": "knot-skills/idea-discovery",
+      "source_directory": "idea-discovery",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "idea-discovery-robot",
+      "directory": "knot-skills/idea-discovery-robot",
+      "source_directory": "idea-discovery-robot",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "integrity-forensics",
+      "directory": "knot-skills/integrity-forensics",
+      "source_directory": "integrity-forensics",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "interview-cheatsheet",
+      "directory": "knot-skills/interview-cheatsheet",
+      "source_directory": "interview-cheatsheet",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "invention-structuring",
+      "directory": "knot-skills/invention-structuring",
+      "source_directory": "invention-structuring",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "jurisdiction-format",
+      "directory": "knot-skills/jurisdiction-format",
+      "source_directory": "jurisdiction-format",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "keenable-search",
+      "directory": "knot-skills/keenable-search",
+      "source_directory": "keenable-search",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "kill-argument",
+      "directory": "knot-skills/kill-argument",
+      "source_directory": "kill-argument",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "lean-formalize",
+      "directory": "knot-skills/lean-formalize",
+      "source_directory": "lean-formalize",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "mermaid-diagram",
+      "directory": "knot-skills/mermaid-diagram",
+      "source_directory": "mermaid-diagram",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "meta-apply",
+      "directory": "knot-skills/meta-apply",
+      "source_directory": "meta-apply",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "meta-optimize",
+      "directory": "knot-skills/meta-optimize",
+      "source_directory": "meta-optimize",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "monitor-experiment",
+      "directory": "knot-skills/monitor-experiment",
+      "source_directory": "monitor-experiment",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "novelty-check",
+      "directory": "knot-skills/novelty-check",
+      "source_directory": "novelty-check",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "openalex",
+      "directory": "knot-skills/openalex",
+      "source_directory": "openalex",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "overleaf-sync",
+      "directory": "knot-skills/overleaf-sync",
+      "source_directory": "overleaf-sync",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-claim-audit",
+      "directory": "knot-skills/paper-claim-audit",
+      "source_directory": "paper-claim-audit",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-compile",
+      "directory": "knot-skills/paper-compile",
+      "source_directory": "paper-compile",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-figure",
+      "directory": "knot-skills/paper-figure",
+      "source_directory": "paper-figure",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-illustration",
+      "directory": "knot-skills/paper-illustration",
+      "source_directory": "paper-illustration",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-illustration-image2",
+      "directory": "knot-skills/paper-illustration-image2",
+      "source_directory": "paper-illustration-image2",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-plan",
+      "directory": "knot-skills/paper-plan",
+      "source_directory": "paper-plan",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-poster",
+      "directory": "knot-skills/paper-poster",
+      "source_directory": "paper-poster",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-poster-html",
+      "directory": "knot-skills/paper-poster-html",
+      "source_directory": "paper-poster-html",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-slides",
+      "directory": "knot-skills/paper-slides",
+      "source_directory": "paper-slides",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-talk",
+      "directory": "knot-skills/paper-talk",
+      "source_directory": "paper-talk",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-write",
+      "directory": "knot-skills/paper-write",
+      "source_directory": "paper-write",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "paper-writing",
+      "directory": "knot-skills/paper-writing",
+      "source_directory": "paper-writing",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "patent-novelty-check",
+      "directory": "knot-skills/patent-novelty-check",
+      "source_directory": "patent-novelty-check",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "patent-pipeline",
+      "directory": "knot-skills/patent-pipeline",
+      "source_directory": "patent-pipeline",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "patent-review",
+      "directory": "knot-skills/patent-review",
+      "source_directory": "patent-review",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "pixel-art",
+      "directory": "knot-skills/pixel-art",
+      "source_directory": "pixel-art",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "prior-art-search",
+      "directory": "knot-skills/prior-art-search",
+      "source_directory": "prior-art-search",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "proof-checker",
+      "directory": "knot-skills/proof-checker",
+      "source_directory": "proof-checker",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "proof-orchestrator",
+      "directory": "knot-skills/proof-orchestrator",
+      "source_directory": "proof-orchestrator",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "proof-writer",
+      "directory": "knot-skills/proof-writer",
+      "source_directory": "proof-writer",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "qzcli",
+      "directory": "knot-skills/qzcli",
+      "source_directory": "qzcli",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "rebuttal",
+      "directory": "knot-skills/rebuttal",
+      "source_directory": "rebuttal",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "render-html",
+      "directory": "knot-skills/render-html",
+      "source_directory": "render-html",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-implement-feature",
+      "directory": "knot-skills/research-implement-feature",
+      "source_directory": "research-implement-feature",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-lit",
+      "directory": "knot-skills/research-lit",
+      "source_directory": "research-lit",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-pipeline",
+      "directory": "knot-skills/research-pipeline",
+      "source_directory": "research-pipeline",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-refine",
+      "directory": "knot-skills/research-refine",
+      "source_directory": "research-refine",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-refine-pipeline",
+      "directory": "knot-skills/research-refine-pipeline",
+      "source_directory": "research-refine-pipeline",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-review",
+      "directory": "knot-skills/research-review",
+      "source_directory": "research-review",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "research-wiki",
+      "directory": "knot-skills/research-wiki",
+      "source_directory": "research-wiki",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "resubmit-pipeline",
+      "directory": "knot-skills/resubmit-pipeline",
+      "source_directory": "resubmit-pipeline",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "result-to-claim",
+      "directory": "knot-skills/result-to-claim",
+      "source_directory": "result-to-claim",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "run-experiment",
+      "directory": "knot-skills/run-experiment",
+      "source_directory": "run-experiment",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "semantic-scholar",
+      "directory": "knot-skills/semantic-scholar",
+      "source_directory": "semantic-scholar",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "serverless-modal",
+      "directory": "knot-skills/serverless-modal",
+      "source_directory": "serverless-modal",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "slides-polish",
+      "directory": "knot-skills/slides-polish",
+      "source_directory": "slides-polish",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "specification-writing",
+      "directory": "knot-skills/specification-writing",
+      "source_directory": "specification-writing",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "system-profile",
+      "directory": "knot-skills/system-profile",
+      "source_directory": "system-profile",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "training-check",
+      "directory": "knot-skills/training-check",
+      "source_directory": "training-check",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "vast-gpu",
+      "directory": "knot-skills/vast-gpu",
+      "source_directory": "vast-gpu",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "web-debug-search",
+      "directory": "knot-skills/web-debug-search",
+      "source_directory": "web-debug-search",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "wiki-enrich",
+      "directory": "knot-skills/wiki-enrich",
+      "source_directory": "wiki-enrich",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
+    },
+    {
+      "name": "writing-systems-papers",
+      "directory": "knot-skills/writing-systems-papers",
+      "source_directory": "writing-systems-papers",
+      "category": "knot-skills",
+      "source": "knot-agent-design/knot-skills"
     }
-  ]
+  ],
+  "knot_agent_skill_count": 87
 }
