@@ -1,6 +1,6 @@
-# 科研工具箱（Research Toolkit）使用指南
+# Auto-Research-In-Sleep 使用指南
 
-本目录收录从 `knot-agent-design/knot-skills` 打包的 **87 个科研与工程技能**，位于 `skills/research-toolkit/`。每个技能保留原始目录结构（含脚本、参考、模板等资源），以 `SKILL.md` 作为入口。
+本目录收录从 `knot-agent-design/knot-skills` 打包的 **87 个科研与工程技能**，位于 `skills/Auto-Research-In-Sleep/`。每个技能保留原始目录结构（含脚本、参考、模板等资源），以 `SKILL.md` 作为入口。
 
 ## 调用方式
 
@@ -12,15 +12,15 @@
 
 | 分类 | 数量 | 目录 |
 |---|---:|---|
-| 文献检索与知识管理 | 14 | [`literature-and-knowledge`](skills/research-toolkit/) |
-| 研究构思与流程编排 | 11 | [`research-ideation`](skills/research-toolkit/) |
-| 实验管理与算力调度 | 15 | [`experiments-and-compute`](skills/research-toolkit/) |
-| 论文写作与投稿 | 17 | [`paper-writing`](skills/research-toolkit/) |
-| 评审与研究诚信审计 | 8 | [`review-and-integrity`](skills/research-toolkit/) |
-| 数学推导与形式化证明 | 5 | [`mathematics-and-proofs`](skills/research-toolkit/) |
-| 专利挖掘与撰写 | 10 | [`patent-drafting`](skills/research-toolkit/) |
-| 图表与可视化 | 6 | [`visualization`](skills/research-toolkit/) |
-| 实用工具 | 1 | [`utilities`](skills/research-toolkit/) |
+| 文献检索与知识管理 | 14 | [`literature-and-knowledge`](skills/Auto-Research-In-Sleep/) |
+| 研究构思与流程编排 | 11 | [`research-ideation`](skills/Auto-Research-In-Sleep/) |
+| 实验管理与算力调度 | 15 | [`experiments-and-compute`](skills/Auto-Research-In-Sleep/) |
+| 论文写作与投稿 | 17 | [`paper-writing`](skills/Auto-Research-In-Sleep/) |
+| 评审与研究诚信审计 | 8 | [`review-and-integrity`](skills/Auto-Research-In-Sleep/) |
+| 数学推导与形式化证明 | 5 | [`mathematics-and-proofs`](skills/Auto-Research-In-Sleep/) |
+| 专利挖掘与撰写 | 10 | [`patent-drafting`](skills/Auto-Research-In-Sleep/) |
+| 图表与可视化 | 6 | [`visualization`](skills/Auto-Research-In-Sleep/) |
+| 实用工具 | 1 | [`utilities`](skills/Auto-Research-In-Sleep/) |
 
 ## 文献检索与知识管理（14）
 
@@ -157,7 +157,7 @@
 ## 目录结构说明
 
 ```text
-skills/research-toolkit/<skill-name>/
+skills/Auto-Research-In-Sleep/<skill-name>/
 ├── SKILL.md              # 技能入口：frontmatter + workflow
 ├── scripts/              # 可执行脚本（部分技能）
 ├── references/           # 参考文档（部分技能）
@@ -165,4 +165,4 @@ skills/research-toolkit/<skill-name>/
 └── assets/               # 资源文件（部分技能）
 ```
 
-完整机器可读清单见 `skills-manifest.json`，其中每个技能条目的 `category` 为 `research-toolkit`，`source` 为 `knot-agent-design/knot-skills`（原始来源路径）。
+完整机器可读清单见 `skills-manifest.json`，其中每个技能条目的 `category` 为 `Auto-Research-In-Sleep`，`source` 为 `knot-agent-design/knot-skills`（原始来源路径）。

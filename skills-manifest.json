@@ -238,611 +238,611 @@
     },
     {
       "name": "ablation-planner",
-      "directory": "research-toolkit/ablation-planner",
+      "directory": "Auto-Research-In-Sleep/ablation-planner",
       "source_directory": "ablation-planner",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "alphaxiv",
-      "directory": "research-toolkit/alphaxiv",
+      "directory": "Auto-Research-In-Sleep/alphaxiv",
       "source_directory": "alphaxiv",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "analyze-results",
-      "directory": "research-toolkit/analyze-results",
+      "directory": "Auto-Research-In-Sleep/analyze-results",
       "source_directory": "analyze-results",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "arxiv",
-      "directory": "research-toolkit/arxiv",
+      "directory": "Auto-Research-In-Sleep/arxiv",
       "source_directory": "arxiv",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-paper-improvement-loop",
-      "directory": "research-toolkit/auto-paper-improvement-loop",
+      "directory": "Auto-Research-In-Sleep/auto-paper-improvement-loop",
       "source_directory": "auto-paper-improvement-loop",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-review-loop",
-      "directory": "research-toolkit/auto-review-loop",
+      "directory": "Auto-Research-In-Sleep/auto-review-loop",
       "source_directory": "auto-review-loop",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-review-loop-llm",
-      "directory": "research-toolkit/auto-review-loop-llm",
+      "directory": "Auto-Research-In-Sleep/auto-review-loop-llm",
       "source_directory": "auto-review-loop-llm",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "auto-review-loop-minimax",
-      "directory": "research-toolkit/auto-review-loop-minimax",
+      "directory": "Auto-Research-In-Sleep/auto-review-loop-minimax",
       "source_directory": "auto-review-loop-minimax",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "citation-audit",
-      "directory": "research-toolkit/citation-audit",
+      "directory": "Auto-Research-In-Sleep/citation-audit",
       "source_directory": "citation-audit",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "citation-crosscheck",
-      "directory": "research-toolkit/citation-crosscheck",
+      "directory": "Auto-Research-In-Sleep/citation-crosscheck",
       "source_directory": "citation-crosscheck",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "claims-drafting",
-      "directory": "research-toolkit/claims-drafting",
+      "directory": "Auto-Research-In-Sleep/claims-drafting",
       "source_directory": "claims-drafting",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "comm-lit-review",
-      "directory": "research-toolkit/comm-lit-review",
+      "directory": "Auto-Research-In-Sleep/comm-lit-review",
       "source_directory": "comm-lit-review",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "deepxiv",
-      "directory": "research-toolkit/deepxiv",
+      "directory": "Auto-Research-In-Sleep/deepxiv",
       "source_directory": "deepxiv",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "dse-loop",
-      "directory": "research-toolkit/dse-loop",
+      "directory": "Auto-Research-In-Sleep/dse-loop",
       "source_directory": "dse-loop",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "embodiment-description",
-      "directory": "research-toolkit/embodiment-description",
+      "directory": "Auto-Research-In-Sleep/embodiment-description",
       "source_directory": "embodiment-description",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "exa-search",
-      "directory": "research-toolkit/exa-search",
+      "directory": "Auto-Research-In-Sleep/exa-search",
       "source_directory": "exa-search",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-audit",
-      "directory": "research-toolkit/experiment-audit",
+      "directory": "Auto-Research-In-Sleep/experiment-audit",
       "source_directory": "experiment-audit",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-bridge",
-      "directory": "research-toolkit/experiment-bridge",
+      "directory": "Auto-Research-In-Sleep/experiment-bridge",
       "source_directory": "experiment-bridge",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-plan",
-      "directory": "research-toolkit/experiment-plan",
+      "directory": "Auto-Research-In-Sleep/experiment-plan",
       "source_directory": "experiment-plan",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "experiment-queue",
-      "directory": "research-toolkit/experiment-queue",
+      "directory": "Auto-Research-In-Sleep/experiment-queue",
       "source_directory": "experiment-queue",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "feishu-notify",
-      "directory": "research-toolkit/feishu-notify",
+      "directory": "Auto-Research-In-Sleep/feishu-notify",
       "source_directory": "feishu-notify",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "figure-description",
-      "directory": "research-toolkit/figure-description",
+      "directory": "Auto-Research-In-Sleep/figure-description",
       "source_directory": "figure-description",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "figure-spec",
-      "directory": "research-toolkit/figure-spec",
+      "directory": "Auto-Research-In-Sleep/figure-spec",
       "source_directory": "figure-spec",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "firecrawl-search",
-      "directory": "research-toolkit/firecrawl-search",
+      "directory": "Auto-Research-In-Sleep/firecrawl-search",
       "source_directory": "firecrawl-search",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "formula-derivation",
-      "directory": "research-toolkit/formula-derivation",
+      "directory": "Auto-Research-In-Sleep/formula-derivation",
       "source_directory": "formula-derivation",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "gemini-search",
-      "directory": "research-toolkit/gemini-search",
+      "directory": "Auto-Research-In-Sleep/gemini-search",
       "source_directory": "gemini-search",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "grant-proposal",
-      "directory": "research-toolkit/grant-proposal",
+      "directory": "Auto-Research-In-Sleep/grant-proposal",
       "source_directory": "grant-proposal",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "idea-creator",
-      "directory": "research-toolkit/idea-creator",
+      "directory": "Auto-Research-In-Sleep/idea-creator",
       "source_directory": "idea-creator",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "idea-discovery",
-      "directory": "research-toolkit/idea-discovery",
+      "directory": "Auto-Research-In-Sleep/idea-discovery",
       "source_directory": "idea-discovery",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "idea-discovery-robot",
-      "directory": "research-toolkit/idea-discovery-robot",
+      "directory": "Auto-Research-In-Sleep/idea-discovery-robot",
       "source_directory": "idea-discovery-robot",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "integrity-forensics",
-      "directory": "research-toolkit/integrity-forensics",
+      "directory": "Auto-Research-In-Sleep/integrity-forensics",
       "source_directory": "integrity-forensics",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "interview-cheatsheet",
-      "directory": "research-toolkit/interview-cheatsheet",
+      "directory": "Auto-Research-In-Sleep/interview-cheatsheet",
       "source_directory": "interview-cheatsheet",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "invention-structuring",
-      "directory": "research-toolkit/invention-structuring",
+      "directory": "Auto-Research-In-Sleep/invention-structuring",
       "source_directory": "invention-structuring",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "jurisdiction-format",
-      "directory": "research-toolkit/jurisdiction-format",
+      "directory": "Auto-Research-In-Sleep/jurisdiction-format",
       "source_directory": "jurisdiction-format",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "keenable-search",
-      "directory": "research-toolkit/keenable-search",
+      "directory": "Auto-Research-In-Sleep/keenable-search",
       "source_directory": "keenable-search",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "kill-argument",
-      "directory": "research-toolkit/kill-argument",
+      "directory": "Auto-Research-In-Sleep/kill-argument",
       "source_directory": "kill-argument",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "lean-formalize",
-      "directory": "research-toolkit/lean-formalize",
+      "directory": "Auto-Research-In-Sleep/lean-formalize",
       "source_directory": "lean-formalize",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "mermaid-diagram",
-      "directory": "research-toolkit/mermaid-diagram",
+      "directory": "Auto-Research-In-Sleep/mermaid-diagram",
       "source_directory": "mermaid-diagram",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "meta-apply",
-      "directory": "research-toolkit/meta-apply",
+      "directory": "Auto-Research-In-Sleep/meta-apply",
       "source_directory": "meta-apply",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "meta-optimize",
-      "directory": "research-toolkit/meta-optimize",
+      "directory": "Auto-Research-In-Sleep/meta-optimize",
       "source_directory": "meta-optimize",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "monitor-experiment",
-      "directory": "research-toolkit/monitor-experiment",
+      "directory": "Auto-Research-In-Sleep/monitor-experiment",
       "source_directory": "monitor-experiment",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "novelty-check",
-      "directory": "research-toolkit/novelty-check",
+      "directory": "Auto-Research-In-Sleep/novelty-check",
       "source_directory": "novelty-check",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "openalex",
-      "directory": "research-toolkit/openalex",
+      "directory": "Auto-Research-In-Sleep/openalex",
       "source_directory": "openalex",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "overleaf-sync",
-      "directory": "research-toolkit/overleaf-sync",
+      "directory": "Auto-Research-In-Sleep/overleaf-sync",
       "source_directory": "overleaf-sync",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-claim-audit",
-      "directory": "research-toolkit/paper-claim-audit",
+      "directory": "Auto-Research-In-Sleep/paper-claim-audit",
       "source_directory": "paper-claim-audit",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-compile",
-      "directory": "research-toolkit/paper-compile",
+      "directory": "Auto-Research-In-Sleep/paper-compile",
       "source_directory": "paper-compile",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-figure",
-      "directory": "research-toolkit/paper-figure",
+      "directory": "Auto-Research-In-Sleep/paper-figure",
       "source_directory": "paper-figure",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-illustration",
-      "directory": "research-toolkit/paper-illustration",
+      "directory": "Auto-Research-In-Sleep/paper-illustration",
       "source_directory": "paper-illustration",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-illustration-image2",
-      "directory": "research-toolkit/paper-illustration-image2",
+      "directory": "Auto-Research-In-Sleep/paper-illustration-image2",
       "source_directory": "paper-illustration-image2",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-plan",
-      "directory": "research-toolkit/paper-plan",
+      "directory": "Auto-Research-In-Sleep/paper-plan",
       "source_directory": "paper-plan",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-poster",
-      "directory": "research-toolkit/paper-poster",
+      "directory": "Auto-Research-In-Sleep/paper-poster",
       "source_directory": "paper-poster",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-poster-html",
-      "directory": "research-toolkit/paper-poster-html",
+      "directory": "Auto-Research-In-Sleep/paper-poster-html",
       "source_directory": "paper-poster-html",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-slides",
-      "directory": "research-toolkit/paper-slides",
+      "directory": "Auto-Research-In-Sleep/paper-slides",
       "source_directory": "paper-slides",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-talk",
-      "directory": "research-toolkit/paper-talk",
+      "directory": "Auto-Research-In-Sleep/paper-talk",
       "source_directory": "paper-talk",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-write",
-      "directory": "research-toolkit/paper-write",
+      "directory": "Auto-Research-In-Sleep/paper-write",
       "source_directory": "paper-write",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "paper-writing",
-      "directory": "research-toolkit/paper-writing",
+      "directory": "Auto-Research-In-Sleep/paper-writing",
       "source_directory": "paper-writing",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "patent-novelty-check",
-      "directory": "research-toolkit/patent-novelty-check",
+      "directory": "Auto-Research-In-Sleep/patent-novelty-check",
       "source_directory": "patent-novelty-check",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "patent-pipeline",
-      "directory": "research-toolkit/patent-pipeline",
+      "directory": "Auto-Research-In-Sleep/patent-pipeline",
       "source_directory": "patent-pipeline",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "patent-review",
-      "directory": "research-toolkit/patent-review",
+      "directory": "Auto-Research-In-Sleep/patent-review",
       "source_directory": "patent-review",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "pixel-art",
-      "directory": "research-toolkit/pixel-art",
+      "directory": "Auto-Research-In-Sleep/pixel-art",
       "source_directory": "pixel-art",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "prior-art-search",
-      "directory": "research-toolkit/prior-art-search",
+      "directory": "Auto-Research-In-Sleep/prior-art-search",
       "source_directory": "prior-art-search",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "proof-checker",
-      "directory": "research-toolkit/proof-checker",
+      "directory": "Auto-Research-In-Sleep/proof-checker",
       "source_directory": "proof-checker",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "proof-orchestrator",
-      "directory": "research-toolkit/proof-orchestrator",
+      "directory": "Auto-Research-In-Sleep/proof-orchestrator",
       "source_directory": "proof-orchestrator",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "proof-writer",
-      "directory": "research-toolkit/proof-writer",
+      "directory": "Auto-Research-In-Sleep/proof-writer",
       "source_directory": "proof-writer",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "qzcli",
-      "directory": "research-toolkit/qzcli",
+      "directory": "Auto-Research-In-Sleep/qzcli",
       "source_directory": "qzcli",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "rebuttal",
-      "directory": "research-toolkit/rebuttal",
+      "directory": "Auto-Research-In-Sleep/rebuttal",
       "source_directory": "rebuttal",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "render-html",
-      "directory": "research-toolkit/render-html",
+      "directory": "Auto-Research-In-Sleep/render-html",
       "source_directory": "render-html",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-implement-feature",
-      "directory": "research-toolkit/research-implement-feature",
+      "directory": "Auto-Research-In-Sleep/research-implement-feature",
       "source_directory": "research-implement-feature",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-lit",
-      "directory": "research-toolkit/research-lit",
+      "directory": "Auto-Research-In-Sleep/research-lit",
       "source_directory": "research-lit",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-pipeline",
-      "directory": "research-toolkit/research-pipeline",
+      "directory": "Auto-Research-In-Sleep/research-pipeline",
       "source_directory": "research-pipeline",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-refine",
-      "directory": "research-toolkit/research-refine",
+      "directory": "Auto-Research-In-Sleep/research-refine",
       "source_directory": "research-refine",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-refine-pipeline",
-      "directory": "research-toolkit/research-refine-pipeline",
+      "directory": "Auto-Research-In-Sleep/research-refine-pipeline",
       "source_directory": "research-refine-pipeline",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-review",
-      "directory": "research-toolkit/research-review",
+      "directory": "Auto-Research-In-Sleep/research-review",
       "source_directory": "research-review",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "research-wiki",
-      "directory": "research-toolkit/research-wiki",
+      "directory": "Auto-Research-In-Sleep/research-wiki",
       "source_directory": "research-wiki",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "resubmit-pipeline",
-      "directory": "research-toolkit/resubmit-pipeline",
+      "directory": "Auto-Research-In-Sleep/resubmit-pipeline",
       "source_directory": "resubmit-pipeline",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "result-to-claim",
-      "directory": "research-toolkit/result-to-claim",
+      "directory": "Auto-Research-In-Sleep/result-to-claim",
       "source_directory": "result-to-claim",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "run-experiment",
-      "directory": "research-toolkit/run-experiment",
+      "directory": "Auto-Research-In-Sleep/run-experiment",
       "source_directory": "run-experiment",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "semantic-scholar",
-      "directory": "research-toolkit/semantic-scholar",
+      "directory": "Auto-Research-In-Sleep/semantic-scholar",
       "source_directory": "semantic-scholar",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "serverless-modal",
-      "directory": "research-toolkit/serverless-modal",
+      "directory": "Auto-Research-In-Sleep/serverless-modal",
       "source_directory": "serverless-modal",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "slides-polish",
-      "directory": "research-toolkit/slides-polish",
+      "directory": "Auto-Research-In-Sleep/slides-polish",
       "source_directory": "slides-polish",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "specification-writing",
-      "directory": "research-toolkit/specification-writing",
+      "directory": "Auto-Research-In-Sleep/specification-writing",
       "source_directory": "specification-writing",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "system-profile",
-      "directory": "research-toolkit/system-profile",
+      "directory": "Auto-Research-In-Sleep/system-profile",
       "source_directory": "system-profile",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "training-check",
-      "directory": "research-toolkit/training-check",
+      "directory": "Auto-Research-In-Sleep/training-check",
       "source_directory": "training-check",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "vast-gpu",
-      "directory": "research-toolkit/vast-gpu",
+      "directory": "Auto-Research-In-Sleep/vast-gpu",
       "source_directory": "vast-gpu",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "web-debug-search",
-      "directory": "research-toolkit/web-debug-search",
+      "directory": "Auto-Research-In-Sleep/web-debug-search",
       "source_directory": "web-debug-search",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "wiki-enrich",
-      "directory": "research-toolkit/wiki-enrich",
+      "directory": "Auto-Research-In-Sleep/wiki-enrich",
       "source_directory": "wiki-enrich",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     },
     {
       "name": "writing-systems-papers",
-      "directory": "research-toolkit/writing-systems-papers",
+      "directory": "Auto-Research-In-Sleep/writing-systems-papers",
       "source_directory": "writing-systems-papers",
-      "category": "research-toolkit",
+      "category": "Auto-Research-In-Sleep",
       "source": "knot-agent-design/knot-skills"
     }
   ],

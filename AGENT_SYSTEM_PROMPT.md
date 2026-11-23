@@ -67,6 +67,6 @@ feishu-notify（飞书通知，常作为内部工具被调用）。
 ## 配置说明
 
 1. 将上述 `system_prompt` 正文填入智能体的「系统提示词 / System Prompt」字段。
-2. 在智能体的「技能 / Skills」配置中，挂载本仓库 `skills/research-toolkit/` 下的全部或所需技能；若平台只支持按目录加载，请把该目录整体作为技能源。
+2. 在智能体的「技能 / Skills」配置中，挂载本仓库 `skills/Auto-Research-In-Sleep/` 下的全部或所需技能；若平台只支持按目录加载，请把该目录整体作为技能源。
 3. 若智能体还需调用外部系统（如 arXiv、OpenAlex、GPU 平台），在「工具 / MCP」中补充相应服务，并在技能脚本中按 SKILL.md 说明配置密钥或环境变量。
 4. 精简版建议：若只想做文献与写作，可只保留分类一、四、五及 `research-pipeline`，删减其余索引条目，以减少提示词长度。

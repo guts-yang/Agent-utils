@@ -6,7 +6,7 @@
 
 - **32 个用户级个人 skills**：复制自 `~/.workbuddy/skills/`，截至 **2026-10-29**。
 - **1 个仓库原有 skill**：`github-python-repo`，保留其脚本与文档。
-- **87 个 Knot Agent 科研 skills**：复制自 `knot-agent-design/knot-skills/`，截至 **2026-11-23**，统一放在 `skills/research-toolkit/` 下。
+- **87 个 Knot Agent 科研 skills**：复制自 `knot-agent-design/knot-skills/`，截至 **2026-11-23**，统一放在 `skills/Auto-Research-In-Sleep/` 下。
 - 仓库共 **120 个技能包**。各包原始内容独立存放，不把所有技能内容拼成一个大文件。
 - 内置、marketplace、插件及 Connector 随附技能不在此仓库内重复 vendoring；这些技能由各自上游管理。
 
@@ -28,7 +28,7 @@
 | `developer-tools` | 2 | GitHub Python 仓库 / PR 工作流与技能仓库移植 |
 | `agent-meta` | 1 | 自我改进与经验记录 |
 
-### Knot Agent 科研 skills（87 个，位于 `skills/research-toolkit/`）
+### Knot Agent 科研 skills（87 个，位于 `skills/Auto-Research-In-Sleep/`）
 
 | 分类 | 数量 | 内容 |
 |---|---:|---|
@@ -46,7 +46,7 @@
 
 ## 使用与配置文档
 
-- [`RESEARCH_TOOLKIT_USAGE.md`](RESEARCH_TOOLKIT_USAGE.md)：87 个技能的分类清单、调用命令、用途与附带资源。
+- [`AUTO_RESEARCH_IN_SLEEP_USAGE.md`](AUTO_RESEARCH_IN_SLEEP_USAGE.md)：87 个技能的分类清单、调用命令、用途与附带资源。
 - [`AGENT_SYSTEM_PROMPT.md`](AGENT_SYSTEM_PROMPT.md)：可直接使用的一体化科研智能体系统提示词，含角色定义、技能加载机制、完整技能索引与典型工作流编排。
 
 ## 后续维护
