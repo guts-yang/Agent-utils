@@ -42,8 +42,8 @@ Parse these options from the request or use the defaults:
 - `track` defaults to `both`. Run tracks independently; do not combine their
   ideas, models, data splits, baselines, metrics, or rankings.
 - `mode` defaults to `full`. `dry-run` validates configuration, artifacts, and
-  routing without cloning, installing, querying external services, or running
-  training.
+   routing without cloning, installing, querying external services, writing
+   git config, or running training.
 - `resume` resumes the first non-accepted phase for the selected track. Never
   infer acceptance from silence, a file name, or a metric that merely exceeds
   baseline.
@@ -105,10 +105,22 @@ state. If it is unavailable, do not claim resumability: write a
 3. Check environment variable names without printing values. The current
    project may use `GITHUB_TOKEN`, `HF_TOKEN`, `Hy4_TOKEN`,
    `DEEPSEEK_API_KEY`, `GITHUB_NAME`, and `GITHUB_EMAIL`.
-4. Check repository branches, CUDA/torch, dependencies, data mounts, and
-   baseline configuration paths.
-5. Create or validate one `INIT_REPORT.md` per track. Do not run idea
-   discovery, training, or evaluation in this phase.
+4. Clone the configured repositories at their pinned branches, then configure
+   every cloned repository for manual git use as specified in
+   `references/project-config.md` → "Git identity for manual commits": set
+   repository-local `user.name`/`user.email` from `GITHUB_NAME`/`GITHUB_EMAIL`
+   and install a shared credential helper that reads `GITHUB_TOKEN` from
+   `.env` when git asks for credentials. Never write the token into a remote
+   URL, `.git/config`, an artifact, or a log; never change global git config;
+   do not commit or push during init. `dry-run` only checks local config keys
+   and helper presence, without cloning or contacting a remote.
+5. Check repository branches, CUDA/torch, dependencies, data mounts, and
+   baseline configuration paths. Verify the git identity/credential setup of
+   each repository read-only (no remote writes). Missing `.env` keys or a
+   failed verification marks init `BLOCKED`.
+6. Create or validate one `INIT_REPORT.md` per track, recording per-repository
+   git identity status without values. Do not run idea discovery, training, or
+   evaluation in this phase.
 
 If an existing report is valid, reuse it after checking its paths and branch
 state. If a baseline is not frozen, stop before the next phase.

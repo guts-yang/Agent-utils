@@ -16,15 +16,34 @@ https://github.com/guts-yang/Agent-utils.git
 
 严格按以下顺序执行：
 
-1. Clone 项目
+1. Clone 项目并准备 git 凭据
 
-如果 /usr/local/workspace/Agent-utils 不存在：
+先校验 /usr/local/workspace/.env 中 GITHUB_NAME / GITHUB_EMAIL / GITHUB_TOKEN
+存在且非空（只检查，不打印值）；在仓库外创建共享 credential helper 脚本
+/usr/local/workspace/.git-credential-github.sh（权限 700，脚本只含"从 .env 读
+GITHUB_TOKEN 并输出 git 凭据"的逻辑，不含明文密钥）。完整脚本模板见第 2 步读取的
+skills/research/workflows/unlearning-reproduction/references/project-config.md
+的「Git identity for manual commits」一节，读取后据此复核。
 
-git clone https://github.com/guts-yang/Agent-utils.git \
+如果 /usr/local/workspace/Agent-utils 不存在，用该 helper 免交互 clone：
+
+GIT_TERMINAL_PROMPT=0 git -c credential.helper= \
+  -c credential.helper=/usr/local/workspace/.git-credential-github.sh \
+  clone https://github.com/guts-yang/Agent-utils.git \
   /usr/local/workspace/Agent-utils
 
 如果目录已存在，先检查其 remote 是否指向上述仓库，并执行只读同步检查。
 不要覆盖用户已有的未提交修改。
+
+clone 完成后立即给主仓库写 --local 配置，使用户可直接手动 git commit / git push：
+- user.name = GITHUB_NAME、user.email = GITHUB_EMAIL（来自 .env，不改全局配置）；
+- credential.helper = 上述共享脚本，token 只在 git 需要凭据时从 .env 读取；
+- 逐项只读核对配置已生效（不回显值），并用
+  GIT_TERMINAL_PROMPT=0 git ls-remote origin HEAD 验证免交互凭据可用；
+- 脚本、.git/config、remote URL、报告与日志都不含明文 token，不写 ~/.git-credentials；
+- .env 三项缺失或验证失败即报阻塞。
+
+01 阶段 clone 的各子仓库按同一约定逐仓配置。
 
 2. 读取远程仓库中的编排 Skill
 
@@ -87,6 +106,7 @@ https://github.com/guts-yang/Agent-utils.git
 - GPU 型号
 - /jizhicfs/chenyliao/ 是否挂载
 - ARIS reviewer 是否可用
+- 主仓库本地 git 身份与免交互凭据是否已配置（只报状态，不报值）
 
 6. 先执行 dry-run
 
@@ -107,6 +127,7 @@ dry-run 必须验证：
 - INIT_REPORT.md 和 HANDOFF.md 路径
 - ARIS 子 Skill 可调用
 - .aris/runs/<run_id>.json 的恢复路径
+- 主仓库本地 git 身份与免交互凭据配置（只读检查，不联网、不打印值）
 - 阶段顺序为 init → idea-discovery → experiment-bridge → review/audit/claim
 
 7. dry-run 通过后，开始正式流程
@@ -138,6 +159,7 @@ INIT_REPORT.md，不得跨线路复用。
 
 - 远程仓库 commit
 - Skill 安装路径
+- 主仓库 git 提交身份 / 免交互凭据配置状态（只报状态，不报值）
 - ARIS 依赖状态
 - 两条线路的初始化状态
 - dry-run 结果

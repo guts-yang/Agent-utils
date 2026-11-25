@@ -24,6 +24,7 @@ repositories:
     path: "<absolute path>"
     branch: "<branch>"
     commit: "<sha>"
+    git_identity: configured|blocked
 baseline:
   name: "<frozen baseline>"
   config_path: "<path>"
@@ -40,8 +41,11 @@ heavy_data_root: "<absolute path>"
 blockers: []
 ```
 
-`status: ready` means initialization checks passed. It does not mean that the
-idea, code, experiment, or claim has passed.
+`git_identity` records only whether repository-local `user.name`/`user.email`
+and the credential helper are configured; never copy names, emails, or tokens
+into the report. `status: ready` requires `configured` for every listed
+repository. It does not mean that the idea, code, experiment, or claim has
+passed.
 
 ## `HANDOFF.md`
 
