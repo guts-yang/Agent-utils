@@ -11,7 +11,7 @@ skills/                          顶层技能包
   <category>/<name>/             35 个分类技能（个人技能、仓库原有技能、复现编排与 Anti-Autoresearch）
   Auto-Research-In-Sleep/<name>/ 87 个 Knot Agent 科研技能，平铺，没有二级分类目录
 prompts/
-  research-reproduction/         本机复现项目的四段兼容提示词
+  research-reproduction/         本机复现项目的起点 prompt 与四段兼容提示词
   aris-reference/                Auto-Research-In-Sleep 的用法清单与系统提示词
 skills-manifest.json             机器可读目录
 ```
@@ -77,8 +77,9 @@ skills-manifest.json             机器可读目录
 
 ## 任务提示词
 
-[`prompts/research-reproduction/`](prompts/research-reproduction/) 现在是针对具体遗忘实验环境的四段兼容提示词，按 ARIS 阶段分开。新运行优先使用 [`unlearning-reproduction`](skills/research/workflows/unlearning-reproduction/SKILL.md)；这些 prompt 保留给单阶段手动执行和迁移参考。里面写了工作区路径、数据盘和仓库分支，换项目时要改这些占位内容。两条线路各自使用 `tracks/<track>/`，不混用基线、数据和指标口径。
+[`prompts/research-reproduction/`](prompts/research-reproduction/) 现在包含一个起点 prompt 和四段兼容提示词，按 ARIS 阶段分开。新运行优先使用 [`unlearning-reproduction`](skills/research/workflows/unlearning-reproduction/SKILL.md)；这些 prompt 保留给初始化、单阶段手动执行和迁移参考。里面写了工作区路径、数据盘和仓库分支，换项目时要改这些占位内容。两条线路各自使用 `tracks/<track>/`，不混用基线、数据和指标口径。
 
+0. [`00-bootstrap-unlearning-reproduction.md`](prompts/research-reproduction/00-bootstrap-unlearning-reproduction.md)：先 clone 远程 Agent-utils，安装编排 Skill 和 ARIS 子 Skill，检查依赖，执行 dry-run 后再开始正式流程。
 1. [`01-project-init.md`](prompts/research-reproduction/01-project-init.md)：环境、ARIS skills、仓库分支、数据盘、依赖和基线口径。6 步做完即停，并按线路写 `INIT_REPORT.md`。
 2. [`02-idea-discovery.md`](prompts/research-reproduction/02-idea-discovery.md)：只调用 `/idea-discovery`，选定一个 idea 并写出实验计划。跳过 GPU pilot。
 3. [`03-experiment-bridge.md`](prompts/research-reproduction/03-experiment-bridge.md)：在锁定基线上实现并跑实验，停在结果和 tracker。
