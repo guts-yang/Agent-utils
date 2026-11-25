@@ -79,6 +79,9 @@ cd /usr/local/workspace/Agent-utils
 4. 检查 ARIS 运行依赖
 
 检查 ARIS 所需的 tools/、shared-references/ 和 reviewer backend。
+本项目 reviewer 覆盖为 Hy4（hunyuan 家族，executor 为 deepseek 家族），见
+skills/research/workflows/unlearning-reproduction/references/reviewer-override.md；仍需
+真实身份回执与 trace，否则 REVIEW_UNAVAILABLE / BLOCKED。
 如果 Agent-utils 快照中缺少这些运行时依赖，从对应上游仓库补齐；
 不要在依赖缺失时声称初始化成功。
 
@@ -105,7 +108,7 @@ https://github.com/guts-yang/Agent-utils.git
 - CUDA 和 CUDA 版 torch
 - GPU 型号
 - /jizhicfs/chenyliao/ 是否挂载
-- ARIS reviewer 是否可用
+- ARIS reviewer 是否可用（本项目指定 Hy4；不可用或身份不可验证即 BLOCKED）
 - 主仓库本地 git 身份与免交互凭据是否已配置（只报状态，不报值）
 
 6. 先执行 dry-run

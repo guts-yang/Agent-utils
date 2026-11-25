@@ -11,7 +11,11 @@ HANDOFF.md 未允许进入 04 时立即停止。不调用 /paper-writing。
 不把两条线路的结果合并、互相排名，或套用另一条线路的基线与指标口径。
 
 两条线路各自在自己的工作目录里，按下面顺序各走一遍。
-不要在这些技能外面再套 /loop、/schedule 或定时器：
+不要在这些技能外面再套 /loop、/schedule 或定时器。
+reviewer 使用本项目覆盖：Hy4（hunyuan 家族，executor 为 deepseek 家族），见
+skills/research/workflows/unlearning-reproduction/references/reviewer-override.md；
+身份不可验证、后端不可用或无 trace id 时，仍按 REVIEW_UNAVAILABLE / BLOCKED 处理，
+不得用执行者判断替代 reviewer 结论。
 
 1. /auto-review-loop "<HANDOFF.md 里的选定 idea>" — compact: true
    停止条件只用技能自己的：score >= 6 且 verdict 为 ready 或 almost，或达到 MAX_ROUNDS。

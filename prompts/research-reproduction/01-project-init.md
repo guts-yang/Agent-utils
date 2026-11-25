@@ -24,6 +24,9 @@
 2. Skills（必需）：clone guts-yang/Agent-utils.git，把 skills/Auto-Research-In-Sleep/
    完整安装到 ~/.codebuddy/skills/；补齐 ARIS 运行时依赖（上游 tools/、shared-references/、
    reviewer 后端，快照里缺，不补会让 /idea-discovery 的证据门 BLOCKED）；
+   本项目 reviewer 覆盖为 Hy4（hunyuan 家族，executor 为 deepseek 家族），
+   见 skills/research/workflows/unlearning-reproduction/references/reviewer-override.md；
+   身份不可验证或后端不可用时仍按 REVIEW_UNAVAILABLE / BLOCKED 处理；
    用 /skills 确认 /idea-discovery、/experiment-bridge、/auto-review-loop、
    /result-to-claim、/experiment-audit 可用。
 
