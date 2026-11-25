@@ -15,6 +15,11 @@ allowed-tools: Bash(*), Read, Write, Edit, Grep, Glob, Skill, mcp__codex__codex,
 > unavailable selections are `REVIEW_UNAVAILABLE`. Classify acceptance from actual
 > families/completion/scope. Forward invocation reviewer/model/effort overrides
 > to reviewer-bearing children. Generation workers are unchanged.
+>
+> **Project override:** this project uses `hy4` (family `hunyuan`, executor family
+> `deepseek`) as the reviewer. See
+> [reviewer-override.md](../../research/workflows/unlearning-reproduction/references/reviewer-override.md).
+> The fail-closed and cross-family rules above are unchanged.
 
 
 Implement and deploy experiments from plan: **$ARGUMENTS**

@@ -21,6 +21,11 @@ Autonomously iterate: review → implement fixes → re-review, until an indepen
 
 ## Constants
 
+> **Project override:** this project uses `hy4` (family `hunyuan`, executor family
+> `deepseek`) as the reviewer; see
+> [reviewer-override.md](../../research/workflows/unlearning-reproduction/references/reviewer-override.md).
+> The cross-family, identity, and fail-closed rules below are unchanged.
+
 - MAX_ROUNDS = 4
 - POSITIVE_THRESHOLD: score >= 6/10 **AND** verdict ∈ {"ready", "almost"} — **both** must hold. This matches the operative Phase-E STOP CONDITION exactly; the verdict vocabulary is {"ready", "almost", "not ready"} (a high score with a "not ready" verdict does NOT stop the loop). Earlier wording here used `or` and a stale verdict set ("accept"/"sufficient"/"ready for submission") — that was an internal inconsistency; the `AND` form is authoritative.
 - REVIEW_DOC: `review-stage/AUTO_REVIEW.md` (cumulative log) *(fall back to `./AUTO_REVIEW.md` for legacy projects)*
