@@ -1,8 +1,8 @@
 {
   "snapshot_date": "2026-11-23",
   "personal_skill_count": 32,
-  "repository_skill_count": 121,
-  "source_scope": "User-level personal skills copied from ~/.workbuddy/skills, with one owner-designated skill omitted, plus the existing skill from this repository root, plus one externally packaged forensic workflow from guts-yang/Anti-Autoresearch.",
+  "repository_skill_count": 122,
+  "source_scope": "User-level personal skills copied from ~/.workbuddy/skills, with one owner-designated skill omitted, plus skills maintained in this repository, plus one externally packaged forensic workflow from guts-yang/Anti-Autoresearch.",
   "exclusions": "Built-in, marketplace, plugin, and connector skills are not vendored; those are maintained by their upstream distributions.",
   "skills": [
     {
@@ -165,6 +165,13 @@
       "source_directory": "vibe-research-workflow",
       "category": "research/workflows",
       "source": "user-level ~/.workbuddy/skills"
+    },
+    {
+      "name": "unlearning-reproduction",
+      "directory": "unlearning-reproduction",
+      "source_directory": "unlearning-reproduction",
+      "category": "research/workflows",
+      "source": "repository-local"
     },
     {
       "name": "benchmark-paper-template",

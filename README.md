@@ -2,16 +2,16 @@
 
 个人 agent skills 与科研任务提示词仓库。每个技能是一个独立目录，入口是 `SKILL.md`；脚本、参考资料、模板和元数据留在原包里，不合并成一个大文件。
 
-仓库共 **121 个顶层技能包**。`skills/research/workflows/anti-autoresearch/bundle/` 里另有取证子技能，它们属于该包，不重复计入 121。
+仓库共 **122 个顶层技能包**。`skills/research/workflows/anti-autoresearch/bundle/` 里另有取证子技能，它们属于该包，不重复计入 122。
 
 ## 布局
 
 ```
 skills/                          顶层技能包
-  <category>/<name>/             34 个分类技能（个人技能、仓库原有技能、Anti-Autoresearch）
+  <category>/<name>/             35 个分类技能（个人技能、仓库原有技能、复现编排与 Anti-Autoresearch）
   Auto-Research-In-Sleep/<name>/ 87 个 Knot Agent 科研技能，平铺，没有二级分类目录
 prompts/
-  research-reproduction/         本机复现项目的两段提示词
+  research-reproduction/         本机复现项目的四段兼容提示词
   aris-reference/                Auto-Research-In-Sleep 的用法清单与系统提示词
 skills-manifest.json             机器可读目录
 ```
@@ -24,7 +24,7 @@ skills-manifest.json             机器可读目录
 
 内置、marketplace、插件和 Connector 自带的技能不在这里重复存放，由各自上游维护。
 
-## 分类技能（34）
+## 分类技能（35）
 
 | 分类 | 技能 |
 |---|---|
@@ -38,13 +38,15 @@ skills-manifest.json             机器可读目录
 | `research/ideas-and-methods` | `idea-evaluator`、`research-challenge-definition`、`research-innovation-validation` |
 | `research/benchmarks-and-reproduction` | `benchmark-baseline-table`、`benchmark-paper-inventory`、`research-baseline-comparison`、`research-baseline-reproduction`、`sota-table-caliber-migration` |
 | `research/writing-and-publication` | `benchmark-paper-template`、`intro-drafter`、`paper-math-note`、`paper-polish`、`paper-venue-ccf-verify`、`paper-writer`、`pre-submission-reviewer`、`tech-paper-template` |
-| `research/workflows` | `research-seven-round-orchestrator`、`research-weekly-review`、`vibe-research-workflow`、`anti-autoresearch` |
+| `research/workflows` | `research-seven-round-orchestrator`、`research-weekly-review`、`vibe-research-workflow`、`unlearning-reproduction`、`anti-autoresearch` |
 
 `research-seven-round-orchestrator` 按阶段串起阅读、文献、知识地图、挑战定义、基线比较、复现和创新验证，并在门未通过时回退。`deep-research`、`verified-research-report`、`idea-evaluator` 是对应阶段的加深工具，不替代阶段门。`research-weekly-review` 做周度或里程碑复盘。
 
 `anti-autoresearch` 是只读取证：把 autoresearch 的 `results.tsv` / `run.log` 整理成可锚定目录，再做证据账本和确定性裁决。入口是 [`skills/research/workflows/anti-autoresearch/SKILL.md`](skills/research/workflows/anti-autoresearch/SKILL.md)。执行前要设置 `AAR_ROOT` 指向该包，避免 bundle 内脚本被外层 git 根目录带走。
 
-来源：32 个复制自 `~/.workbuddy/skills/`（截至 2026-10-29），`github-python-repo` 是本仓库原有技能，`anti-autoresearch` 打包自 `guts-yang/Anti-Autoresearch`（截至 2026-11-23）。
+`unlearning-reproduction` 是机器遗忘复现编排 skill：按线路隔离初始化、idea discovery、experiment bridge、review/audit/claim，并通过 `INIT_REPORT.md`、`HANDOFF.md` 和 `.aris/runs/` 支持阶段 gate 与恢复。入口是 [`skills/research/workflows/unlearning-reproduction/SKILL.md`](skills/research/workflows/unlearning-reproduction/SKILL.md)，默认调用 `/unlearning-reproduction`。它只编排 ARIS，不复制各阶段 skill 的研究逻辑。
+
+来源：32 个复制自 `~/.workbuddy/skills/`（截至 2026-10-29），`github-python-repo` 是本仓库原有技能，`unlearning-reproduction` 是本仓库维护的编排技能，`anti-autoresearch` 打包自 `guts-yang/Anti-Autoresearch`（截至 2026-11-23）。
 
 ## Auto-Research-In-Sleep（87）
 
@@ -75,10 +77,12 @@ skills-manifest.json             机器可读目录
 
 ## 任务提示词
 
-[`prompts/research-reproduction/`](prompts/research-reproduction/) 是一套针对具体遗忘实验环境的两段提示词，里面写了工作区路径、数据盘和仓库分支，换项目时要改这些占位内容。
+[`prompts/research-reproduction/`](prompts/research-reproduction/) 现在是针对具体遗忘实验环境的四段兼容提示词，按 ARIS 阶段分开。新运行优先使用 [`unlearning-reproduction`](skills/research/workflows/unlearning-reproduction/SKILL.md)；这些 prompt 保留给单阶段手动执行和迁移参考。里面写了工作区路径、数据盘和仓库分支，换项目时要改这些占位内容。两条线路各自使用 `tracks/<track>/`，不混用基线、数据和指标口径。
 
-1. [`01-project-init.md`](prompts/research-reproduction/01-project-init.md)：环境、ARIS skills、仓库分支、数据盘、依赖和基线口径。6 步做完即停。
-2. [`02-research-loop-dual-track.md`](prompts/research-reproduction/02-research-loop-dual-track.md)：承接 01。LLM unlearning 与 LRM unlearning 分开跑「想 idea → 交叉验证 → 复现 → 评测」，不混用基线、数据和指标口径。
+1. [`01-project-init.md`](prompts/research-reproduction/01-project-init.md)：环境、ARIS skills、仓库分支、数据盘、依赖和基线口径。6 步做完即停，并按线路写 `INIT_REPORT.md`。
+2. [`02-idea-discovery.md`](prompts/research-reproduction/02-idea-discovery.md)：只调用 `/idea-discovery`，选定一个 idea 并写出实验计划。跳过 GPU pilot。
+3. [`03-experiment-bridge.md`](prompts/research-reproduction/03-experiment-bridge.md)：在锁定基线上实现并跑实验，停在结果和 tracker。
+4. [`04-review-and-claim.md`](prompts/research-reproduction/04-review-and-claim.md)：实验结果出现后调用一次 `/auto-review-loop`，再做诚信核对与 `/result-to-claim`。claim 不成立时把下一个候选交回 03。
 
 ## 维护
 
