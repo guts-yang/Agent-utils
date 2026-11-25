@@ -20,7 +20,7 @@
 1. 环境配置：初始化并校验 /usr/local/workspace/.env（GitHub/HF/Hy4 等凭据）与 git 身份；
    密钥只从环境变量读取，不打印、不写进任何文件。
 
-2. Skills（必需）：clone guts-yang/skills-repos.git，把 skills/Auto-Research-In-Sleep/
+2. Skills（必需）：clone guts-yang/Agent-utils.git，把 skills/Auto-Research-In-Sleep/
    完整安装到 ~/.codebuddy/skills/；补齐 ARIS 运行时依赖（上游 tools/、shared-references/、
    reviewer 后端，快照里缺，不补会让 /idea-discovery 的证据门 BLOCKED）；
    用 /skills 确认 /idea-discovery、/experiment-bridge、/auto-review-loop、

@@ -106,7 +106,7 @@ Runs are comparable only within the same GPU platform. No independent reproducti
 ## 运行与回写
 
 ```bash
-AAR_SKILL="${AAR_SKILL:-/usr/local/workspace/skills-repos/skills/research/workflows/anti-autoresearch}"
+AAR_SKILL="${AAR_SKILL:-/usr/local/workspace/Agent-utils/skills/research/workflows/anti-autoresearch}"
 export AAR_ROOT="$AAR_SKILL/bundle"; cd "$AAR_ROOT" || exit 1
 PAPER_DIR="<absolute paper dir, no spaces>"
 # 按 SKILL.md 的“完整模式”或“确定性-only 回退”执行，产物写入 PAPER_DIR

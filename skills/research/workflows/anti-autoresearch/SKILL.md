@@ -46,10 +46,10 @@ anti-autoresearch/
     └── tests/
 ```
 
-**关键路径约定**：bundle 内所有 `SKILL.md` 用 `ROOT="${AAR_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null || pwd)}"` 定位工具。为避免被外层 git 仓库（如 `skills-repos`）抢走 ROOT，执行前必须显式导出 `AAR_ROOT`：
+**关键路径约定**：bundle 内所有 `SKILL.md` 用 `ROOT="${AAR_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null || pwd)}"` 定位工具。为避免被外层 git 仓库（如 `Agent-utils`）抢走 ROOT，执行前必须显式导出 `AAR_ROOT`：
 
 ```bash
-AAR_SKILL="${AAR_SKILL:-/usr/local/workspace/skills-repos/skills/research/workflows/anti-autoresearch}"
+AAR_SKILL="${AAR_SKILL:-/usr/local/workspace/Agent-utils/skills/research/workflows/anti-autoresearch}"
 export AAR_ROOT="$AAR_SKILL/bundle"
 ROOT="$AAR_ROOT"
 cd "$ROOT" || exit 1
@@ -86,7 +86,7 @@ test -f "$ROOT/tools/adjudicate_findings.py" || { echo "FATAL: ROOT 未指向 An
 **确定性-only 回退（无 codex / 离线）**：在 `bundle/` 下执行以下完整命令块；它会跑全部四个确定性检查器，但报告必须声明语义与代码级维度未运行。
 
 ```bash
-AAR_SKILL="${AAR_SKILL:-/usr/local/workspace/skills-repos/skills/research/workflows/anti-autoresearch}"
+AAR_SKILL="${AAR_SKILL:-/usr/local/workspace/Agent-utils/skills/research/workflows/anti-autoresearch}"
 export AAR_ROOT="$AAR_SKILL/bundle"; ROOT="$AAR_ROOT"; cd "$ROOT" || exit 1
 PAPER_DIR="<absolute paper dir, no spaces>"
 

@@ -65,7 +65,7 @@ cd /usr/local/workspace/Agent-utils
 
 如果需要上游仓库，使用：
 
-https://github.com/guts-yang/skills-repos.git
+https://github.com/guts-yang/Agent-utils.git
 
 只补齐运行依赖，不修改本项目的研究配置。
 
