@@ -26,7 +26,7 @@ transport actually returns.
 Preferred transport: `llm-chat` MCP as an opt-in Codex fallback.
 
 ```text
-LLM_BASE_URL=https://<hy4-endpoint>/openapi/v1
+LLM_BASE_URL=https://<hy4-endpoint>/v1  # real endpoint comes from the local mcp.json; never committed
 LLM_MODEL=hy4
 LLM_API_KEY=<read from the process environment; never write the value>
 LLM_REVIEW_FALLBACK_ENABLED=true
