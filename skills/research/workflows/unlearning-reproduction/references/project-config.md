@@ -75,6 +75,30 @@ The orchestrator checks whether required names are present when a phase needs
 them. It must never print, interpolate into a prompt artifact, or commit their
 values.
 
+## Reviewer selection (project override)
+
+The default ARIS reviewer is replaced by a project-level override. The override
+changes only *which* model reviews; the evidence gate is unchanged.
+
+```yaml
+reviewer:
+  backend: manual | codex        # llm-chat is a transport fallback, not a backend name
+  model: "hy4"
+  family: "hunyuan"
+  executor_model: "deepseek-v4.1-flash"
+  executor_family: "deepseek"
+  transport: "llm-chat"          # LLM_REVIEW_FALLBACK_ENABLED=true, LLM_MODEL=hy4
+```
+
+- Read `LLM_API_KEY` from the process environment. Never write the value into
+  `mcp.json`, `.aris/reviewer.json`, logs, artifacts, or any other file.
+- `hy4` / `hunyuan` is not in ARIS's built-in family classifier. Add the mapping
+  described in `reviewer-override.md` before expecting a verdict; otherwise both
+  `manual-review` and `llm-chat` fail closed with "unknown family".
+- A verdict is accepted only when it is identity-bearing (`Reviewer-Model: hy4`),
+  cross-family, and recorded with a durable trace/thread id. Otherwise emit
+  `REVIEW_UNAVAILABLE` and mark the phase `BLOCKED`.
+
 ## Git identity for manual commits
 
 After cloning, every repository (the `Agent-utils` snapshot, all track

@@ -37,6 +37,11 @@ compute:
   cuda: "<version>"
   torch: "<version>"
 dependencies: "<check summary or artifact path>"
+reviewer:
+  backend: "<manual|codex>"
+  model: "hy4"
+  family: "hunyuan"
+  identity_verified: false
 heavy_data_root: "<absolute path>"
 blockers: []
 ```
@@ -46,6 +51,11 @@ and the credential helper are configured; never copy names, emails, or tokens
 into the report. `status: ready` requires `configured` for every listed
 repository. It does not mean that the idea, code, experiment, or claim has
 passed.
+
+`reviewer` records the project-level override from `reviewer-override.md`.
+`identity_verified: true` requires a real cross-family verdict with a trace id;
+it may stay `false` while init is `blocked`. This field does not relax the
+`accepted` rule in `HANDOFF.md`.
 
 ## `HANDOFF.md`
 

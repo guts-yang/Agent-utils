@@ -102,6 +102,10 @@ state. If it is unavailable, do not claim resumability: write a
 1. Resolve the project root and load the track configuration.
 2. Check that the required ARIS skills and their upstream `tools/`,
    `shared-references/`, and reviewer backend dependencies are available.
+   Reviewer selection follows `references/reviewer-override.md` (reviewer
+   `hy4` / family `hunyuan`, executor family `deepseek`). Availability and
+   identity are still checked here: a missing transport or an unverifiable
+   identity is a blocker, not a reason to skip the gate.
 3. Check environment variable names without printing values. The current
    project may use `GITHUB_TOKEN`, `HF_TOKEN`, `Hy4_TOKEN`,
    `DEEPSEEK_API_KEY`, `GITHUB_NAME`, and `GITHUB_EMAIL`.
@@ -205,6 +209,9 @@ Route the claim result:
   from `IDEA_CANDIDATES.md`, and return to Phase 2 with an updated plan.
 - review or audit unavailable: mark the track `BLOCKED`; do not substitute the
   executor's opinion for a reviewer or integrity verdict.
+- Reviewer routing and identity rules for this project are defined in
+  `references/reviewer-override.md` (Hy4). That override changes only the
+  reviewer model; the fail-closed rule above is unchanged.
 
 “Better than baseline” is a comparison datum, not an acceptance gate. All
 claims must remain bounded by the frozen protocol and the evidence ledger.
