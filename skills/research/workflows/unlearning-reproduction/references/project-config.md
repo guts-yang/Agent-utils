@@ -92,9 +92,10 @@ reviewer:
 
 - Read `LLM_API_KEY` from the process environment. Never write the value into
   `mcp.json`, `.aris/reviewer.json`, logs, artifacts, or any other file.
-- `hy4` / `hunyuan` is not in ARIS's built-in family classifier. Add the mapping
-  described in `reviewer-override.md` before expecting a verdict; otherwise both
-  `manual-review` and `llm-chat` fail closed with "unknown family".
+- The runtime `manual-review` and `llm-chat` servers now map `hy4` / `hunyuan`
+  to family `hunyuan` (see `reviewer-override.md`). Verify the deployed MCP copy
+  includes the mapping and has been restarted; without it both servers fail
+  closed with "unknown family" and the phase stays `BLOCKED`.
 - A verdict is accepted only when it is identity-bearing (`Reviewer-Model: hy4`),
   cross-family, and recorded with a durable trace/thread id. Otherwise emit
   `REVIEW_UNAVAILABLE` and mark the phase `BLOCKED`.
