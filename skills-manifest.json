@@ -4,6 +4,30 @@
   "repository_skill_count": 122,
   "source_scope": "User-level personal skills copied from ~/.workbuddy/skills, with one owner-designated skill omitted, plus skills maintained in this repository, plus one externally packaged forensic workflow from guts-yang/Anti-Autoresearch.",
   "exclusions": "Built-in, marketplace, plugin, and connector skills are not vendored; those are maintained by their upstream distributions.",
+  "vendored_repositories": [
+    {
+      "name": "Supervisor-Skills",
+      "url": "https://github.com/guts-yang/Supervisor-Skills.git",
+      "commit": "1e706bb8e0e5e9ab283f668f83b5a9dbe559365b",
+      "path": "skills/Supervisor-Skills",
+      "skills": [
+        "benchmark-baseline-table",
+        "benchmark-paper-template",
+        "deep-research",
+        "drawio-reconstruction",
+        "figure-designer",
+        "idea-evaluator",
+        "intro-drafter",
+        "paper-polish",
+        "paper-writer",
+        "pre-submission-reviewer",
+        "rebuttal-guidance",
+        "tech-paper-template",
+        "vibe-research-workflow"
+      ],
+      "note": "Vendored upstream copy. Skill names overlap with existing top-level skills, so these copies are not counted in repository_skill_count and are not duplicated in the skills array."
+    }
+  ],
   "skills": [
     {
       "name": "self-improvement",

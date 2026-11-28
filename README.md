@@ -10,6 +10,7 @@
 skills/                          顶层技能包
   <category>/<name>/             35 个分类技能（个人技能、仓库原有技能、复现编排与 Anti-Autoresearch）
   Auto-Research-In-Sleep/<name>/ 87 个 Knot Agent 科研技能，平铺，没有二级分类目录
+  Supervisor-Skills/<name>/      13 个上游 vendored 技能，保留上游原名，不重复计入 122
 prompts/
   research-reproduction/         本机复现项目的起点 prompt 与四段兼容提示词
   aris-reference/                Auto-Research-In-Sleep 的用法清单与系统提示词
@@ -17,6 +18,8 @@ skills-manifest.json             机器可读目录
 ```
 
 `skills-manifest.json` 的每条记录包含 `name`、`directory`、`source_directory`、`category`、`source`。来源目录名和技能 `name` 不一致时（例如 `self-improving-agent__skillhub` → `self-improvement`），两边都保留。
+
+`skills/Supervisor-Skills/` 是从 `guts-yang/Supervisor-Skills` vendored 的上游副本，保留上游技能原名（如 `idea-evaluator`、`deep-research`）。由于这些名称与现有技能重叠，该目录不计入上面的 122 个顶层技能包，也不重复写入 manifest 的 `skills` 数组；来源与 commit 记录在 manifest 的 `vendored_repositories` 中。
 
 ## 怎么用
 
